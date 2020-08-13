@@ -7,18 +7,19 @@
 <body>
 <script>
     let year = parseInt(prompt("Nhập năm kiểm tra"));
-    let isLeapYear = false;
-    let isDivisibleBy4 = year % 4 == 0;
-    if(isDivisibleBy4){
-        let  isDivisibleBy100 = year % 100 == 0;
-        if(isDivisibleBy100){
-            let isDivisibleBy400 = year % 400 == 0;
-            if(isDivisibleBy400){
-                isLeapYear = true;
-            }
-        } else {
+    let isDiviableBy4 = year % 4 === 0;
+    let isDiviableBy100 = year % 100 === 0;
+    let isUndiviable100 = year % 100 !== 0;
+    let isDiviableBy400 = year % 400 === 0;
+    if(isDiviableBy4) {
+        if (isUndiviable100) {
             isLeapYear = true;
+        } else {
+            isLeapYear = isDiviableBy400 && isDiviableBy100;
         }
+    }
+    else {
+        isLeapYear = false;
     }
 
     if(isLeapYear){

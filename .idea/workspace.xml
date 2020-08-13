@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee26168b-492b-4072-85f7-d8583a946249" name="Default Changelist" comment="" />
+    <list default="true" id="ee26168b-492b-4072-85f7-d8583a946249" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leapyear.html" beforeDir="false" afterPath="$PROJECT_DIR$/leapyear.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fygOPoNIdKsfysh9T5FaBi9EN2" />
   <component name="ProjectViewState">
@@ -35,11 +41,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597195713454</updated>
-      <workItem from="1597195714517" duration="1380000" />
+      <workItem from="1597195714517" duration="1656000" />
+      <workItem from="1597284394789" duration="3127000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="738" y="105" key="FileChooserDialogImpl" timestamp="1597197836898">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="738" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597197836898" />
   </component>
 </project>
